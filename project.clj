@@ -6,7 +6,8 @@
                  [compojure "1.5.0"]
                  [ring/ring-defaults "0.1.5"]
                  [ring/ring-jetty-adapter "1.4.0"]
-                 [ring/ring-json "0.4.0"]]
+                 [ring/ring-json "0.4.0"]
+                 [clj-time "0.12.0"]]
   :plugins [[lein-ring "0.9.7"]]
   :global-vars {*warn-on-reflection* true}
   :ring {:handler clerk.handler/app
